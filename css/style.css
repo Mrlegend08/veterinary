@@ -277,3 +277,78 @@ a, ul, li {
 }
 
 /****! START HEADER END   *****/
+
+
+
+/********* MAIN START *********/
+
+/* hero section start */
+.hero-section {
+    background-image: url(../images/pets.svg), url(../images/toti.svg);
+    background-repeat: no-repeat;
+    background-position: calc(50% - 481px) calc(50% - 130px), calc(50% + 690px) calc(50% + 150px);
+    background-color: #F9F8F8;
+    padding-top: 153px;
+    padding-bottom: 238px;
+}
+
+
+.hero-section-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.wrapper-start {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 608px;
+    height: fit-content;
+}
+
+.hero-section-title {
+    max-width: 100%;
+    margin: 0;
+    margin-bottom: 29px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 64px;
+    color: #333333;
+}
+
+.title-span {
+    color: #78C0DE;
+}
+
+.hero-section-desc {
+    max-width: 495px;
+    margin: 0;
+    margin-bottom: 38px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #949494;
+}
+
+.hero-section-btn {
+    padding: 15px 48px 16px 47px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background-color: #333333;
+    border-radius: 3px;
+}
+
+.hero-section-btn:hover {
+    background-color: #333333cc;
+}
+
+.hero-section-btn:active {
+    background-color: #33333399;
+}
+/* hero section end*/
+
+/********* MAIN END *********/

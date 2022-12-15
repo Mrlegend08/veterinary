@@ -46,7 +46,6 @@
 *::after {
     box-sizing: border-box;
     transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-
 }
 
 html {
@@ -61,6 +60,8 @@ body {
     padding: 0;
     font-family: "FuturaPT", "Arial", sans-serif;
     font-weight: 400;
+    background-color: #F9F8F8;
+    background-image: url(../images/bg.png);
 }
 
 
@@ -101,7 +102,6 @@ a, ul, li {
 /****! START HEADER START *****/
 
 .header-top {
-    background-color: #F9F8F8;
     padding-top: 13px;
     padding-bottom: 13px;
 }
@@ -201,10 +201,16 @@ a, ul, li {
     color: var(--txt-btn-footer-color);
 }
 
-
+.site-header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    backdrop-filter: blur(20px);
+}
 
 .header-bottom {
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.7);
     padding-top: 20px;
     padding-bottom: 20px;
 
@@ -221,11 +227,13 @@ a, ul, li {
 
 .wrapper-end-img-link {
     position: absolute;
-    top: -40px;
+    top: -35px;
     left: -10px;
     width: 177px;
     height: 86px;
 }
+
+
 
 .wrapper-end-img-link:active {
     opacity: 0.6;
@@ -248,14 +256,30 @@ a, ul, li {
 }
 
 .site-nav-link {
+    position: relative;
     font-weight: 500;
     font-size: 16px;
     line-height: 21px;
     color: var(--txt-btn-footer-color);
+    white-space: nowrap;
+}
+
+.site-nav-link:focus::before {
+    position: absolute;
+    top: 0;
+    left: -40px;
+    content: url(../images/fish.svg);
+
+}
+
+.site-nav-link:hover {
+    background: linear-gradient(transparent 50%, #f4ffad 50%);
 }
 
 .site-nav-link:active {
     opacity: 0.6;
+    background: linear-gradient(transparent 50%, #f4ffad 50%);
+
 }
 
 .wrapper-end-link {
@@ -287,7 +311,6 @@ a, ul, li {
     background-image: url(../images/pets.svg), url(../images/toti.svg);
     background-repeat: no-repeat;
     background-position: calc(50% - 481px) calc(50% - 130px), calc(50% + 690px) calc(50% + 150px);
-    background-color: #F9F8F8;
     padding-top: 153px;
     padding-bottom: 238px;
 }
@@ -299,7 +322,7 @@ a, ul, li {
     justify-content: flex-end;
 }
 
-.wrapper-start {
+.wrapper-start:last-child {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -349,6 +372,71 @@ a, ul, li {
 .hero-section-btn:active {
     background-color: #33333399;
 }
-/* hero section end*/
+
+/* hero section end */
+
+
+/* block section start */
+.block-section {
+    padding-top: 75px;
+    padding-bottom: 191px;
+    background-image: url(../images/“.png), url(../images/ikki.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% - 450px) calc(50% - 150px), calc(50% + 460px) calc(50% - 85px);
+}
+
+.block-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+blockquote {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.block-section-desc {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 70px;
+    max-width: 753px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #949494;
+}
+
+.block-section-desc::before {
+    position: absolute;
+    top: -43px;
+    left: calc(50% - 110px);
+    display: block;
+    content: "";
+    width: 140px;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.block-section-desc::after {
+    position: absolute;
+    bottom: -35px;
+    left: calc(50% - 110px);
+    display: block;
+    content: "";
+    width: 140px;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.block-section-info {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #333333;
+}
+
+/* block section end */
 
 /********* MAIN END *********/

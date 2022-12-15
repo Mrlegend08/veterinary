@@ -1,0 +1,92 @@
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'FuturaPT';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('../fonts/FuturaPT-Light.woff') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/FuturaPT-Light.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-regular - latin */
+  @font-face {
+      font-family: 'FuturaPT';
+      font-style: normal;
+      font-weight: 500;
+      src: local(''),
+           url('../fonts/FuturaPT-Medium.woff') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+           url('../fonts/FuturaPT-Medium.woff2') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
+    /* roboto-regular - latin */
+  @font-face {
+      font-family: 'FuturaPT';
+      font-style: normal;
+      font-weight: 700;
+      src: local(''),
+           url('../fonts/FuturaPT-Bold.woff') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+           url('../fonts/FuturaPT-Bold.woff2') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
+    /* GENERAL */
+    :root{
+      --txt-btn-footer-color: #333333;
+      --btn-color:#FFBD54;
+      --kurse-bg-color: #78C0DE;
+    }
+  
+  *,
+  *::before,
+  *::after {
+      box-sizing: border-box;
+  }
+  
+  html {
+      height: 100%;
+      box-sizing: border-box;
+  }
+  
+  
+  body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: "FuturaPT", "Arial", sans-serif;
+      font-weight: 400;
+  }
+  
+  
+  /* VISUALLY-HIDDEN */
+  
+  .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      padding: 0;
+      border: 0;
+      white-space: nowrap;
+      clip-path: inset(100%);
+      clip: rect(0 0 0 0);
+      overflow: hidden;
+  }
+  
+  a,ul,li {
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+      list-style: none;
+  }
+  
+  
+  /* CONTAINER */
+  
+  .container {
+      width: 100%;
+      max-width: 1350px;
+      margin-right: auto;
+      margin-left: auto;
+      padding-right: 20px;
+      padding-left: 20px;
+  }
+  
+  /****! START HEADER START *****/
+  
+  /****! START HEADER END   *****/

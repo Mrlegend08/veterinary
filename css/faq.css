@@ -46,7 +46,7 @@
 }
 
 .faq-hero-top__link::before{
-    content: url(../images/icons/document.svg);
+    content: url(../images/document.svg);
     margin-right: 6px;
 }
 
@@ -94,7 +94,7 @@
     position: absolute;
     top: -5px;
     left: -30px;
-    content: url(../images/icons/panja-rotate.svg);
+    content: url(../images/panja-rotate.svg);
     background-repeat: no-repeat;
     width: 23px;
     height: 20px;
@@ -136,7 +136,7 @@ details[open]>summary >.summery__title::after{
 }
 
 .faq-details:nth-child(even)>.faq-summery>.details-top__text>.details-top__time::before{
-    content: url(../images/icons/panja-rotate-blue.svg);
+    content: url(../images/panja-rotate-blue.svg);
 }
 
 details[disabled] summary{
@@ -148,6 +148,6 @@ details[disabled] summary{
 details[disabled] summary>.summery__title::after{
     /* display: inline-block; */
     /* margin-left: 93px; */
-    content: url(../images/icons/clock.svg);
+    content: url(../images/lock.svg);
     /* transform: rotate(90deg); */
 }

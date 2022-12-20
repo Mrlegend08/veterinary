@@ -1,0 +1,133 @@
+/******** HERO SECTION STYLE START ********/
+
+.contact_hero__section {
+    padding: 218px 0 395px 0;
+    background-image: url(/images/FALEDASKOP.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% + 480px) calc(50% - 126px);
+}
+.contact_wrapper {
+    justify-content: start;
+    padding-left: 127px;
+}
+.contact_desc_box {
+    margin-bottom: 117px;
+}
+.contact_main_title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 64px;
+    color: var(--txt-btn-footer-color);
+    margin: 0;
+    margin-bottom: 27px;
+}
+.contact_desc {
+    width: 447px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+.contact_adress_box {
+    display: flex;
+    
+}
+.adres_box{
+    margin-right: 123px;
+}
+.adres_box::before{
+    content: url(/images/itni_manzili.svg);
+}
+.contact_adres{
+    font-style: normal;
+    width: 153px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    margin-top: 30px;
+}
+
+.contact_time{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+}
+.days_working {
+    display: flex;
+    flex-direction: column;
+    margin-right: 121px;
+}
+
+.days_working::before{
+    content: url(/images/itni-calendari.png);
+    margin-bottom: 26px;
+}
+.contact_tel_box {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.contact_page_telnureric {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: right;
+    color: #333333;
+}
+
+.contact_tel_box::before{
+    margin-bottom: 27px;
+    content: url(/images/itni-telefoni.png);
+}
+/******** HERO SECTION STYLE END ********/
+/***** LOOCATION SECTION START */
+.location_section {
+    position: relative;
+    margin-bottom: 201px;
+}
+.location_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paws{
+    position: absolute;
+    top:calc(50% - 550px);
+    right: calc(50% - 650px);
+}
+
+.dog{
+    position: absolute;
+    top:calc(50% - 465px);
+    right: calc(50% + 218px);
+}
+.find_our {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #333333;
+    margin: 0 ;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.location_map_bo {
+    display: flex;
+    align-items: center;
+}
+.contact_loacation_map {
+    width: 847px;
+    height: 466px;
+}
+.kulbani_rasmi {
+    width: 593px;
+    height: 466px;
+}
+.contact_footer{
+    background-color: #EBEBEB;
+}
+/***** LOOCATION SECTION END */

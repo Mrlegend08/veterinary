@@ -1,0 +1,206 @@
+/**** BLOGS HERO SECTION STAERT ****/
+.blog_hero_section {
+    padding-top: 137px;
+    padding-bottom: 41px;
+}
+.tutorial_wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.blog_wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+}
+.blog_txt_box {
+    margin-right: 93px;
+}
+.tutorial_img{
+    margin-right: 85px;
+}
+.blog_main_title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 64px;
+    color: #333333;
+    margin: 0;
+    margin-bottom: 21px;
+}
+.blog_desc {
+    width: 447px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+
+/**** BLOGS HERO SECTION END    ****/
+
+/***** TUTORIAL SECTION START *****/
+.tutrial_section {
+}
+.top_tutorial_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 126px;
+    background-color: #FFFFFF;
+}
+.tutorial_img{
+}
+.tutorials_txt_box {
+    padding-right: 140px;
+}
+.tutoruial_list {
+    display: flex;
+    align-items: center;
+    width: 481px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 35px;
+}
+.tutorial_items {
+    display: flex;
+    align-items: center;
+}
+.items_word {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3D9CEA;
+    margin: 0;
+    margin-right: 7px;
+}
+.tutorial_time {
+    margin-left: 314px;
+}
+.tutorial_main_title {
+    width: 325px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    color: #333333;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.tutorial_desc {
+    
+    width: 517px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+    margin: 0;
+    margin-bottom: 51px;
+}
+
+.tutorial_link{
+    position: relative;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+    margin-left: 30px;
+    
+}
+.tutorial_link::before {
+    position: absolute;
+    content: url(/images/panja.svg);
+    right: 103px; 
+}
+.tutorial_link:hover{
+    background-image: linear-gradient(white 45%, #FBDD7B 45% );
+    transition: 0.5s ease;
+}
+
+.tutorial_bottom_box {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 56px;
+}
+.bottom_box_items {
+    display: flex;
+    flex-direction: column;
+    width: 305px;
+    border: 1px solid #E4E4E2;
+    border-radius: 5px;
+    margin-right: 30px;
+    margin-bottom: 60px;
+}
+.bottom_box_items:nth-child(4){
+    margin-right: 0;
+}
+.bottom_box_items:nth-child(8){
+    margin-right: 0;
+}
+.tutorial_bottoms_time {
+    margin-left: auto;
+    margin-top: 21px;
+    margin-right: 20px;
+    margin-bottom: 2px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #949494;
+}
+.tutorial_bottoms_title {
+    width: 182px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    color: #000000;
+    margin: 0;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.tutorial_bottoms_desc {
+    width: 244px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+    margin: 0;
+    margin-bottom: 37px;
+    margin-left: 30px;
+}
+.bottoms_box_link {
+    position: relative;
+    margin-left: 70px;
+    margin-bottom: 37px;
+}
+.bottoms_box_link::before {
+ position: absolute;
+ width: 98px;
+ top: calc(50% - 18px);
+ left: calc(50% - 160px);
+ transition: 0.5s ease;
+}
+
+.bottoms_box_link:hover{
+    background-image: linear-gradient(transparent 65%, #FBDD7B 35% );   
+}
+  
+.bolshe_statey{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 16px 40px 16px 55px;
+    background: #333333;
+    border-radius: 3px;
+    margin-bottom: 150px;
+}
+.bolshe_statey::before{
+    content: url(/images/aylana.svg);
+    margin-right: 15px;
+    margin-top: -25px;
+}
+.bolshe_statey:hover{
+    opacity: 0.8;
+}
+
+.blog_footer{
+    background-color: #EBEBEB;
+}
+/***** TUTORIAL SECTION END   *****/
